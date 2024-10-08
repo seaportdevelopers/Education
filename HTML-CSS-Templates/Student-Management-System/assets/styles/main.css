@@ -51,6 +51,39 @@ header {
     cursor: pointer;
 }
 
+.student-list {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.student-list-heading {
+    font-weight: bold;
+}
+
+.student-list-heading, .student-list-data {
+    display: table-row;
+}
+
+.student-list-data img {
+    width: 24px;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    vertical-align: middle;
+}
+
 @media screen and (max-width: 1000px) {
     header {
         flex-direction: column;
