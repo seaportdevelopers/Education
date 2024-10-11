@@ -16,6 +16,14 @@ body {
     color: #333;
 }
 
+a {
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 main {
     width: 80%;
     margin: auto;
