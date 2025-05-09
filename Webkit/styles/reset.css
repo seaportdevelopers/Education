@@ -40,6 +40,10 @@ button, input, select, textarea {
     color: inherit;
 }
 
+textarea {
+    resize: none;
+}
+
 main, section, article, aside, footer, header, nav {
     display: block;
 }
