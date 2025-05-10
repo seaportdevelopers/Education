@@ -21,6 +21,7 @@
         <input type="submit" name="submit_button" id="submit_button" value="Post">
     </form>
 
+    <!-- Posts list -->
     <div class="posts-list">
         <div class="single-post">
             <div class="flex">
@@ -38,6 +39,8 @@
                         laborum modi molestiae provident saepe sunt.</p>
                 </div>
             </div>
+
+            <!-- Comments list -->
             <div class="comments-list">
                 <div class="flex">
                     <div class="avatar-container">
@@ -53,6 +56,13 @@
                     </div>
                 </div>
             </div>
+
+            <!-- New comment form -->
+            <form action="" method="POST">
+                <label for="comment_text"></label>
+                <textarea name="comment_text" id="comment_text" cols="30" rows="10"></textarea>
+                <input type="submit" name="comment_submit_button" id="comment_submit_button" value="Post">
+            </form>
         </div>
     </div>
 </main>
