@@ -1,3 +1,5 @@
+/* Mini Social Network */
+
 * {
     margin: 0;
     padding: 0;
@@ -38,6 +40,7 @@ button, input, select, textarea {
     border: none;
     background: none;
     color: inherit;
+    outline: none;
 }
 
 textarea {
